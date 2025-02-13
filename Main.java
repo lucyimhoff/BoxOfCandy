@@ -24,6 +24,20 @@ public class Main{
         System.out.println(test2);
         System.out.println(test2.removeNextByFlavor("lime"));
         System.out.println(test2);
+        box = new Candy[4][3];
+        box[0][1] = new Candy("lime");
+        box[1][1] = new Candy("orange");
+        box[2][2] = new Candy("cherry");
+        box[3][1] = new Candy("lemon");
+        box[3][2] = new Candy("grape");
+        BoxOfCandy test3 = new BoxOfCandy(box);
+        System.out.println(test3);
+        System.out.println(test3.moveCandyToFirstRow(0));
+        System.out.println(test3.moveCandyToFirstRow(1));
+        System.out.println(test3);
+        System.out.println(test3.moveCandyToFirstRow(2));
+        System.out.println(test3);
+
 
 
 
