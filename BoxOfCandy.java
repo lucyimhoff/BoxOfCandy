@@ -30,10 +30,10 @@ public class BoxOfCandy
                     box[row][col] = null;
                     return c;
                 }
-                return null;
 
             }
         }
+        return null;
     }
     
 }
